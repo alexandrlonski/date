@@ -35,7 +35,7 @@ let date = new Date(),
 document.getElementById('dateOne').innerHTML = `${timeOfDay()}`;
 document.getElementById('dateTwo').innerHTML = `Сегодня: ${day}`;
 document.getElementById('dateThree').innerHTML = `Текущее время: ${ date.toLocaleTimeString('en') }`;
-document.getElementById('dateFour').innerHTML = `До нового года осталось: ${countTimer('1 January 2021')}`;
+document.getElementById('dateFour').innerHTML = `До нового года осталось ${countTimer('1 January 2021')} дней`;
 
   } , 1000);
 
